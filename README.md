@@ -171,10 +171,10 @@ identity emb    ──┘
 
 | Model  | Key idea                                                               |
 |--------|------------------------------------------------------------------------|
-| UWUA   | Annotator (Ea) + label-history (En) embeddings injected into BERT input |
-| Jury   | ModernBERT + annotator emb + one-hot survey features → Deep & Cross Network |
-| mBERT  | Plain ModernBERT-large fine-tuned with a linear regression head        |
-| LoRA   | Llama-3.1-8B-Instruct with LoRA adapters; demographic-conditioned prompt |
+| UWUA (Annotation + Annotator Embedding model (En + Ea)([Deng et al., 2023](https://aclanthology.org/2023.findings-emnlp.832/)) )  | Annotator (Ea) + label-history (En) embeddings injected into BERT input |
+| Jury  ([Gordon et al., 2022](https://dl.acm.org/doi/10.1145/3491102.3502004))  | ModernBERT + annotator emb + one-hot survey features → Deep & Cross Network |
+| mBERT  (Warner et al., 2024) | Plain ModernBERT-large fine-tuned with a linear regression head        |
+| LoRA ([Orlikowski et al., 2025](https://arxiv.org/abs/2502.20897))  | Llama-3.1-8B-Instruct with LoRA adapters; demographic-conditioned prompt |
 
 ---
 
