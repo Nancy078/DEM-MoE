@@ -181,9 +181,13 @@ identity emb    ──┘
 ## Citation
 
 ```bibtex
-@article{dem-moe-2025,
-  title   = {DEM-MoE: Demographic-Aware Mixture of Experts},
-  year    = {2025},
-  url     = {https://arxiv.org/pdf/2508.02853},
+@misc{xu2025modelingannotatordisagreementdemographicaware,
+      title={Modeling Annotator Disagreement with Demographic-Aware Experts and Synthetic Perspectives}, 
+      author={Yinuo Xu and Veronica Derricks and Allison Earl and David Jurgens},
+      year={2025},
+      eprint={2508.02853},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.02853}, 
 }
 ```
